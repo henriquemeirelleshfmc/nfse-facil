@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nfse-facil"
+version = "0.6.0"
+description = "NFS-e Fácil - Aplicativo desktop simplificado para gestão e download de NFS-e"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Equipe NFS-e Fácil" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: Microsoft :: Windows",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+dependencies = [
+    "customtkinter>=5.2.0",
+    "cryptography>=42.0.0",
+    "asn1crypto>=1.5.0",
+    "requests>=2.32.5",
+    "requests-pkcs12>=1.27,<2",
+    "openpyxl>=3.1.5,<4",
+    "reportlab>=4.2,<5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pypdf>=5.0,<7",
+]
+build = [
+    "pyinstaller>=6.18,<7",
+]
+
+[project.scripts]
+nfse-facil = "nfse_facil.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
