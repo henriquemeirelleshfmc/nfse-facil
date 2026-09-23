@@ -2,7 +2,7 @@
 
 **Projeto**: NFS-e Fácil  
 **Etapa**: 02 — Persistência Local e Gestão de Empresas  
-**Local do Projeto**: `C:\Users\henrique\Desktop\peganf`  
+**Local do Projeto**: `<pasta-do-projeto>`  
 **Data de Conclusão**: 21/09/2026  
 **Status**: Concluída e Aprovada com 100% dos testes aprovados  
 
@@ -167,7 +167,7 @@ A suite conta com **76 testes automatizados**, todos aprovados com 100% dos test
 ```text
 ============================= test session starts =============================
 platform win32 -- Python 3.12.0, pytest-8.0.0, pluggy-1.6.0
-rootdir: C:\Users\henrique\Desktop\peganf
+rootdir: <pasta-do-projeto>
 configfile: pyproject.toml
 collected 76 items
 

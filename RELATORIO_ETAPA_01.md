@@ -1,7 +1,7 @@
 # RELATÓRIO DA ETAPA 01 — Fundação do Projeto NFS-e Fácil
 
 **Data e Hora de Conclusão:** 19/09/2026  
-**Local do Projeto:** `C:\Users\henrique\Desktop\peganf`  
+**Local do Projeto:** `<pasta-do-projeto>`  
 **Status da Etapa:** Concluída com 100% de Aprovação nos Critérios de Aceitação  
 
 ---
@@ -289,7 +289,7 @@ Esta seção registra as correções realizadas após a primeira rodada de audit
 - **Resultado**: Janela criada, processada e destruída com sucesso absoluto (código 0).
 
 ### 15.7. Confirmação de Criação do LICENSE
-- Arquivo `LICENSE` presente na raiz (`C:\Users\henrique\Desktop\peganf\LICENSE`) com texto MIT padrão e copyright "2026 NFS-e Fácil contributors".
+- Arquivo `LICENSE` presente na raiz (`<pasta-do-projeto>\LICENSE`) com texto MIT padrão e copyright "2026 NFS-e Fácil contributors".
 
 ### 15.8. Confirmação de Inicialização e Resumo do Status do Git
 - Repositório Git inicializado localmente (`Initialized empty Git repository in C:/Users/henrique/Desktop/peganf/.git/`).
